@@ -3,7 +3,7 @@
 <div class="flex-container">
 
 <div>
-<?php echo "Version App 0.3.5"; 
+<?php echo "Version App 0.3.6"; 
 ?>
 </div>
 
