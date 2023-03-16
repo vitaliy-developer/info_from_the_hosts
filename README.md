@@ -1,4 +1,4 @@
-# The web application displays information from the server.
+# The web application displays information from the server
 
 My project on Docker Hub:
 * $ docker push vitaliy1303/web-app:latest
