@@ -13,9 +13,9 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/vitaliy-developer/info_from_the_hosts.git  # Can point to either a Helm chart repo or a git repo.
-    targetRevision: master  # For Helm, this refers to the chart version.
-    path: /web-app-chart  # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
+    repoURL: 'https://github.com/vitaliy-developer/info_from_the_hosts.git'  # Can point to either a Helm chart repo or a git repo.
+    targetRevision: main  # For Helm, this refers to the chart version.
+    path: web-app-chart/  # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
 
     helm:
       valueFiles:
