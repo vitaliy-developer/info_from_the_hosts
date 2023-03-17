@@ -6,7 +6,7 @@ My project on Docker Hub:
 Used with helm in k8s:
 Get the application URL by running these commands:
 
-* $ helm install web-app ./web-app-chart --debug --dry-run
+* $ helm install web-app ./web-app-chart -n web-app --create-namespace --debug --dry-run
 
 Get the application URL by running these commands:
   http://web-app.com/
